@@ -3,11 +3,13 @@ package aiwa.database;
 import java.util.ArrayList;
 
 import aiwa.entity.Shoes;
+import aiwa.model.Shoesmodel;
 
 public class ShoesTable {
       public static void main(final String[] args) {
-          final ShoesTable st = new ShoesTable();
-
+          Shoesmodel sm = new Shoesmodel();
+          sm.findByMaker("");
+          
       }
 
       public ArrayList<Shoes> getData() {

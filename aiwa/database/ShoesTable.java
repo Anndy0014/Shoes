@@ -1,16 +1,23 @@
 package aiwa.database;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import aiwa.entity.Shoes;
 import aiwa.model.Shoesmodel;
+import aiwa.view.ShoesListView;
 
 public class ShoesTable {
-      public static void main(final String[] args) {
-          Shoesmodel sm = new Shoesmodel();
-          sm.findByMaker("");
+    //   public static void main(final String[] args) {
+    //       Shoesmodel sm = new Shoesmodel();
+    //       sm.findByMaker("nike");
+    //       sm.findByID(1);
+    //       sm.findByPrice(1000, 3000);
+    //       sm.findByColor("black");
+    //       ShoesListView sl = new ShoesListView();
+    //     //   sl.showList(List);
           
-      }
+    //   }
 
       public ArrayList<Shoes> getData() {
           final Shoes s1 = new Shoes();

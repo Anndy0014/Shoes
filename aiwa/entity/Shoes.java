@@ -2,11 +2,11 @@ package aiwa.entity;
 
 
 public class Shoes {
-       int ID;
-     String Maker;
-     String Color;
-     double Price;
-     double Size;
+    private   int ID;
+    private String Maker;
+    private String Color;
+    private double Price;
+    private double Size;
 
     public int getID() {
         return this.ID;
